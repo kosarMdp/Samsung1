@@ -1,0 +1,20 @@
+div.wrapper > div.shop-menu {
+    width: inherit;
+    height: 50px;
+  }
+  div.wrapper > div.shop-menu > ul {
+    width: 100%;
+    height: inherit;
+    text-align: center;
+  }
+  div.wrapper > div.shop-menu > ul > li {
+    display: inline-block;
+    vertical-align: top;
+    line-height: 50px;
+    padding: 0 9px 0 12px;
+    font-size: 14px;
+    font-weight: 600;
+  }
+  div.wrapper > div.shop-menu > ul > li > a {
+    color: black;
+  }

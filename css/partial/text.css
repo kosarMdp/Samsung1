@@ -1,0 +1,36 @@
+div.wrapper > div.text > div.mobile {
+    padding-top: 80px;
+  }
+  div.wrapper > div.text > div.mobile > p {
+    font-size: 13px;
+    color: gray;
+    line-height: 25px;
+    padding: 10px 50px;
+  }
+  div.wrapper > div.text > div.mobile > p:nth-of-type(1),
+  div.wrapper > div.text > div.HomeA > p:nth-of-type(1),
+  div.wrapper > div.text > div.HomeE > p:nth-of-type(1) {
+    cursor: pointer;
+    color: black;
+    font-weight: 600;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif,
+      "Arial Narrow", Arial, sans-serif;
+    font-size: 18px;
+  }
+  div.wrapper > div.text > div.mobile > p > span,
+  div.wrapper > div.text > div.HomeE > p > span,
+  div.wrapper > div.text > div.HomeA > p > span {
+    color: rgb(78, 195, 235);
+    cursor: pointer;
+  }
+  div.wrapper > div.text > div.HomeA > p,
+  div.wrapper > div.text > div.HomeE > p {
+    font-size: 13px;
+    color: gray;
+    padding: 10px 50px;
+  }
+  div.wrapper > div.text > div.HomeE > p > sup,
+  div.wrapper > div.text > div.HomeA > p > sup,
+  div.wrapper > div.text > div.mobile > p > sup {
+    font-size: 9px;
+  }

@@ -1,0 +1,59 @@
+div.wrapper > div.menu {
+    border-bottom: 1px rgb(214, 208, 208) solid;
+    width: inherit;
+    height: 80px;
+    position: relative;
+    z-index: 100;
+  }
+  
+  div.wrapper > div.menu > div.logo {
+    width: 14%;
+    height: inherit;
+  
+    padding-left: 33px;
+    display: inline-block;
+    vertical-align: top;
+  }
+  
+  div.wrapper > div.menu > div.logo > img {
+    width: 58%;
+    height: 85px;
+    object-fit: contain;
+  }
+  
+  div.wrapper > div.menu > div.main-menu {
+    width: 55%;
+    height: inherit;
+    display: inline-block;
+    vertical-align: top;
+  }
+  
+  div.wrapper > div.menu > div.main-menu > nav {
+    width: 100%;
+    height: inherit;
+  }
+  
+  div.wrapper > div.menu > div.main-menu > nav > ul.main-ul {
+    width: inherit;
+    height: inherit;
+  }
+  
+  div.wrapper > div.menu > div.main-menu > nav > ul.main-ul > li {
+    display: inline-block;
+    vertical-align: top;
+    line-height: 80px;
+    margin: 0 2px;
+}
+  
+  div.wrapper > div.menu > div.main-menu > nav > ul.main-ul > li > a {
+    padding: 5px;
+    font-size: 14px;
+    font-weight: 600;
+    color: black;
+  }
+  
+  div.wrapper > div.menu > div.main-menu > nav > ul.main-ul > li > a:hover {
+    background-color: black;
+    border-radius: 20px;
+    color: white;
+  }

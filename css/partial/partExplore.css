@@ -1,0 +1,130 @@
+div.wrapper > div.explore {
+    width: 100%;
+    height: 100px;
+    text-align: center;
+ 
+  }
+  div.wrapper > div.explore > p {
+    line-height: 100px;
+    font-size: 38px;
+    font-weight: 600;
+  }
+  div.wrapper > div.explore1 {
+    width: 100%;
+    height: 800px;
+    position: relative;
+  }
+  div.wrapper > div.explore1 > div.explorePic {
+    width: 50%;
+    height: 700px;
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    border-radius: 20px;
+    overflow: hidden;
+  }
+  div.wrapper > div.explore1 > div.explorePic > img {
+    border-radius: 20px;
+    width: 740px;
+    height: inherit;
+  }
+  div.wrapper > div.explore1 > div.explorePic > img:hover {
+    transform: scale(1.03, 1.03);
+    -webkit-transform: scale(1.03, 1.03);
+    -moz-transform: scale(1.03, 1.03);
+    -ms-transform: scale(1.03, 1.03);
+    -o-transform: scale(1.03, 1.03);
+  }
+  div.wrapper > div.explore1 > div.exploreMenu {
+    width: 35%;
+    height: 470px;
+    position: absolute;
+    top: 20%;
+    left: 60%;
+  }
+  div.wrapper > div.explore1 > div.exploreMenu > ul {
+    width: 100%;
+  }
+  div.wrapper > div.explore1 > div.exploreMenu > ul > li {
+    font-size: 25px;
+    font-weight: 600;
+    cursor: pointer;
+    padding-bottom: 55px ;
+    list-style: decimal-leading-zero;
+    transition: 500ms;
+    -webkit-transition: 500ms;
+    -moz-transition: 500ms;
+    -ms-transition: 500ms;
+    -o-transition: 500ms;
+  }
+  div.wrapper > div.explore1 > div.exploreMenu > ul > li:nth-of-type(1):hover {
+    padding-bottom: 38px;
+    border-bottom: 2px solid gray;
+    border-top: 3px solid black;
+  }
+  div.wrapper > div.explore1 > div.exploreMenu > ul > li:nth-of-type(2):hover {
+    padding-bottom: 43px;
+    border-bottom: 2px solid gray;
+    border-top: 3px solid black;
+  }
+  div.wrapper > div.explore1 > div.exploreMenu > ul > li:nth-of-type(3):hover {
+    padding-bottom: 38px;
+    border-bottom: 2px solid gray;
+    border-top: 3px solid black;
+  }
+  div.wrapper > div.explore1 > div.exploreMenu > ul > li:nth-of-type(4):hover {
+    padding-bottom: 43px;
+    border-bottom: 2px solid gray;
+    border-top: 3px solid black;
+  }
+  div.wrapper > div.explore1 > div.exploreMenu > ul > li:nth-of-type(5):hover {
+    padding-bottom: 43px;
+    border-bottom: 2px solid gray;
+    border-top: 3px solid black;
+  }
+  div.wrapper > div.explore1 > div.exploreMenu > ul > li > p {
+    width: 40%;
+    color: black;
+    font-size: 15px;
+    font-weight: 100;
+    margin-top: 20px;
+    transition: 500ms;
+    -webkit-transition: 500ms;
+    -moz-transition: 500ms;
+    -ms-transition: 500ms;
+    -o-transition: 500ms;
+    display: none;
+  }
+  div.wrapper > div.explore1 > div.exploreMenu > ul > li > div {
+    width: 0px;
+    height: 2px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 2px;
+    transition: 200ms;
+    -webkit-transition: 200ms;
+    -moz-transition: 200ms;
+    -ms-transition: 200ms;
+    -o-transition: 200ms;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+  }
+  div.wrapper > div.explore1 > div.exploreMenu > ul > li > p:hover ~ div {
+    width: 13%;
+  }
+  div.wrapper > div.explore1 > div.exploreMenu > ul > li:hover > p {
+    display: block;
+  }
+  div.wrapper
+    > div.explore1
+    > div.exploreMenu
+    > ul
+    > li:nth-of-type(2):hover
+    div.wrapper
+    > div.explore1
+    > div.explorePic
+    > img:nth-of-type(1) {
+    display: none;
+  }
+  
